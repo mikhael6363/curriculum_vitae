@@ -1,0 +1,40 @@
+html, body{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 20px auto;
+  width: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  padding: 0 20px;
+  background: #273136;
+}
+body * {
+  color: #fff;
+}
+header {
+  margin-bottom: 30px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 15px;
+}
+#home img {
+  float: right;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+}
+ol li {
+  margin-bottom: 10px;
+}
