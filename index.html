@@ -7,112 +7,227 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#personal-info">Personal</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article id="home">
-        <img src="./images/profile_photo.jpg" alt="profile-image" />
-        <h1>Mykhailo Popandopulo</h1>
-        <h2>Squarespace Web Developer</h2>
-        <p><em>Future Full-stack Developer :)</em></p>
+    <article class="main-container">
+      <article class="my-cv cv-container">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#personal-info">Personal</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section id="home">
+            <img src="./images/profile_photo.jpg" alt="profile-image" />
+            <h1>Mykhailo Popandopulo</h1>
+            <h2>Squarespace Web Developer</h2>
+            <p><em>Future Full-stack Developer :)</em></p>
+          </section>
+          <hr />
+          <section id="personal-info">
+            <h3>Personal info:</h3>
+            <ul>
+              <li>1995.06.06 [25 y.o.]</li>
+              <li>Zaporozhye, Ukraine</li>
+            </ul>
+            <ul>
+              <li><strong>Languages</strong></li>
+              <li>English: Conversional</li>
+              <li>Ukrainian: Native</li>
+              <li>Russian: Native</li>
+            </ul>
+          </section>
+          <hr />
+          <section id="education">
+            <h3>Education:</h3>
+            <article class="grid-article">
+              <p>09.2012 – 01.2018</p>
+              <p>
+                Zaporizhzhya Institute of Economics and Information Technology
+              </p>
+              <p>Degree:</p>
+              <p>Masters degree of International Economy</p>
+            </article>
+          </section>
+          <hr />
+          <section id="experience">
+            <h3>Work Experience:</h3>
+            <article class="grid-article">
+              <p>06.2012 – 09.2012</p>
+              <p>
+                Advertising Manager |
+                <a href="https://ra-puzzle.ru/" target="_blank">
+                  <strong>Advertising agency "Puzzle"</strong>
+                </a>
+              </p>
+              <p>2016 – 2019</p>
+              <p>
+                Instagram content/sales manager |
+                <a
+                  href="https://www.instagram.com/transformator.live/"
+                  target="_blank"
+                >
+                  <strong>Self Employment</strong>
+                </a>
+              </p>
+              <p>05.2020 – Present</p>
+              <p>
+                Squarespace Web Developer & Designer |
+                <a
+                  href="https://www.upwork.com/freelancers/~01bb7fdd81ac11de3a?viewMode=1"
+                  target="_blank"
+                >
+                  <strong>Upwork</strong>
+                </a>
+              </p>
+            </article>
+          </section>
+          <hr />
+          <section id="skills">
+            <h3>Skills:</h3>
+            <ol>
+              <li>Squarespace 7.0, Squarespace 7.1</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Photoshop Advanced user</li>
+            </ol>
+          </section>
+        </main>
+        <hr />
+        <footer>
+          <section id="contacts">
+            <h3>Contact info:</h3>
+            <article class="grid-article">
+              <p>Tel.:</p>
+              <p><a href="tel:+380967939482">Click to Call</a></p>
+              <p>Email:</p>
+              <p>
+                <a href="mailto:mikhael.6363@gmail.com">Send Message</a>
+              </p>
+              <p>Facebook:</p>
+              <p>
+                <a href="https://www.facebook.com/mikhael.6363/" target="_blank"
+                  >Click to Cooperate</a
+                >
+              </p>
+            </article>
+          </section>
+        </footer>
       </article>
-      <hr>
-      <article id="personal-info">
-        <h3>Personal info:</h3>
-        <ul>
-          <li>1995.06.06 [25 y.o.]</li>
-          <li>Zaporozhye, Ukraine</li>
-        </ul>
-        <ul>
-          <li><strong>Languages</strong></li>
-          <li>English: Conversional</li>
-          <li>Ukrainian: Native</li>
-          <li>Russian: Native</li>
-        </ul>
+
+      <article class="next-cv cv-container">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#personal-info">Personal</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section id="home">
+            <img
+              src="https://visualpharm.com/assets/387/Person-595b40b75ba036ed117da139.svg"
+              alt="profile-image"
+            />
+            <h1>John Galt</h1>
+            <h2>Lorem Ipsum dolor</h2>
+            <p><em>Lorem, ipsum dolor.</em></p>
+          </section>
+          <hr />
+          <section id="personal-info">
+            <h3>Personal info:</h3>
+            <ul>
+              <li>1994.05.05 [26 y.o.]</li>
+              <li>NY, New-York</li>
+            </ul>
+            <ul>
+              <li><strong>Languages</strong></li>
+              <li>English: Native</li>
+            </ul>
+          </section>
+          <hr />
+          <section id="education">
+            <h3>Education:</h3>
+            <article class="grid-article">
+              <p>09.2012 – 01.2018</p>
+              <p>Lorem ipsum dolor sit, elit. Molestias, quod.</p>
+              <p>Degree:</p>
+              <p>Masters degree of Information Technologies</p>
+            </article>
+          </section>
+          <hr />
+          <section id="experience">
+            <h3>Work Experience:</h3>
+            <article class="grid-article">
+              <p>06.2012 – 09.2012</p>
+              <p>
+                Lorem, ipsum. |
+                <a href="https://ra-puzzle.ru/" target="_blank">
+                  <strong>Lorem ipsum dolor sit amet.</strong>
+                </a>
+              </p>
+              <p>2012 – 2015</p>
+              <p>
+                Lorem ipsum dolor sit, amet adipisicing. |
+                <a
+                  href="https://www.instagram.com/transformator.live/"
+                  target="_blank"
+                >
+                  <strong>Self Employment</strong>
+                </a>
+              </p>
+              <p>05.2016 – Present</p>
+              <p>
+                Lorem ipsum dolor sit amet. |
+                <a
+                  href="https://www.upwork.com/freelancers/~01bb7fdd81ac11de3a?viewMode=1"
+                  target="_blank"
+                >
+                  <strong>lorem</strong>
+                </a>
+              </p>
+            </article>
+          </section>
+          <hr />
+          <section id="skills">
+            <h3>Skills:</h3>
+            <ol>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem, ipsum.</li>
+              <li>lorem</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ol>
+          </section>
+        </main>
+        <hr />
+        <footer>
+          <section id="contacts">
+            <h3>Contact info:</h3>
+            <article class="grid-article">
+              <p>Tel.:</p>
+              <p><a href="tel:+380967939482">Click to Call</a></p>
+              <p>Email:</p>
+              <p>
+                <a href="mailto:mikhael.6363@gmail.com">Send Message</a>
+              </p>
+              <p>Facebook:</p>
+              <p>
+                <a href="https://www.facebook.com/mikhael.6363/" target="_blank"
+                  >Click to Cooperate</a
+                >
+              </p>
+            </article>
+          </section>
+        </footer>
       </article>
-      <hr />
-      <article id="education">
-        <h3>Education:</h3>
-        <section>
-          <p>09.2012 – 01.2018</p>
-          <p>Zaporizhzhya Institute of Economics and Information Technology</p>
-          <p>Degree:</p>
-          <p>Masters degree of International Economy</p>
-        </section>
-      </article>
-      <hr />
-      <article id="experience">
-        <h3>Work Experience:</h3>
-        <section>
-          <p>06.2012 – 09.2012</p>
-          <p>
-            Advertising Manager |
-            <a href="https://ra-puzzle.ru/" target="_blank">
-              <strong>Advertising agency "Puzzle"</strong>
-            </a>
-          </p>
-          <p>2016 – 2019</p>
-          <p>
-            Instagram content/sales manager |
-            <a
-              href="https://www.instagram.com/transformator.live/"
-              target="_blank"
-            >
-              <strong>Self Employment</strong>
-            </a>
-          </p>
-          <p>05.2020 – Present</p>
-          <p>
-            Squarespace Web Developer & Designer |
-            <a
-              href="https://www.upwork.com/freelancers/~01bb7fdd81ac11de3a?viewMode=1"
-              target="_blank"
-            >
-              <strong>Upwork</strong>
-            </a>
-          </p>
-        </section>
-      </article>
-      <hr />
-      <article id="skills">
-        <h3>Skills:</h3>
-        <ol>
-          <li>Squarespace 7.0, Squarespace 7.1</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Photoshop Advanced user</li>
-        </ol>
-        </section>
-      </article>
-    </main>
-    <hr />
-    <footer>
-      <article id="contacts">
-        <h3>Contact info:</h3>
-        <section>
-          <p>Tel.:</p>
-          <p><a href="tel:+380967939482">Click to Call</a></p>
-          <p>Email:</p>
-          <p>
-            <a href="mailto:mikhael.6363@gmail.com">Send Message</a>
-          </p>
-          <p>Facebook:</p>
-          <p>
-            <a href="https://www.facebook.com/mikhael.6363/" target="_blank"
-              >Click to Cooperate</a
-            >
-          </p>
-        </section>
-      </article>
-    </footer>
+    </article>
   </body>
 </html>
