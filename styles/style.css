@@ -1,25 +1,33 @@
-html, body{
+html,
+body {
   scroll-behavior: smooth;
 }
-body {
-  margin: 20px auto;
-  width: 50%;
-  border: 1px dashed rgba(255, 255, 255, 0.3);
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+.cv-container {
+  border: 3px solid rgb(229, 255, 0, 1);
+  border-radius: 5px;
   padding: 0 20px;
   background: #273136;
+  margin: 0;
 }
-body * {
+.cv-container * {
   color: #fff;
 }
 header {
   margin-bottom: 30px;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  border-bottom: 1px dashed rgba(255, 255, 255, 1);
 }
 header ul {
   display: flex;
   justify-content: space-around;
 }
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   padding: 0;
 }
@@ -29,8 +37,9 @@ ul li {
 }
 #home img {
   float: right;
+  width: 200px;
 }
-section {
+.grid-article {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr;
